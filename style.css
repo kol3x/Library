@@ -1,0 +1,73 @@
+body {
+  background-color: rgba(127, 255, 212, 0.466);
+  display: grid;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  gap: 5px;
+}
+
+h1 {
+  place-self: center;
+}
+
+.form-div {
+  border-radius: 15px;
+  background-color: rgba(0, 255, 255, 0.26);
+  padding: 25px;
+  width: 50%;
+  justify-self: center;
+}
+
+form {
+  display: grid;
+  gap: 5px;
+}
+
+form > button {
+    border: none;
+    color: rgb(17, 104, 9);
+    border-radius: 10px;
+    width: 50%;
+    place-self: center;
+    height: 100%;
+}
+
+table {
+  display: grid;
+  gap: 10px;
+}
+
+tr {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  place-content: space-between;
+  gap: 20px;
+}
+
+th {
+  justify-self: start;
+}
+
+tr > button:first-of-type {
+  border: none;
+  color: red;
+  border-radius: 10px;
+  width: 50%;
+  place-self: end;
+  height: 100%;
+}
+
+tr > button:nth-of-type(2) {
+  color: green;
+  border: none;
+  border-radius: 10px;
+  width: 50%;
+  place-self: start;
+}
+
+body > button {
+  border: none;
+  width: 30%;
+  background-color: brown;
+  color: white;
+}
